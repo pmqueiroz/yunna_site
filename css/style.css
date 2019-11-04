@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: #222629;
+    font-family: poppins,Helvetica,arial,sans-serif;
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+main h1{
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 40px;
+    color: #fff;
+}
+main p{
+    text-align: center;
+    color: #BDBEBF;
+}
+#avatar{
+    width: 500px;
+    height: 500px;
+    top: 9vw;
+    left: 63.1vw;
+    position: absolute;
+}
+.invite_button{
+    font-family: open sans,Helvetica,arial,sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    outline: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 44.2vw;
+    top: 35vh;
+}
+main button img{
+    width: 35px;
+    height: 35px;
+}

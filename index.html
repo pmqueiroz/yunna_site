@@ -1,31 +1,22 @@
-
 <!DOCTYPE html>
-<html lang="pt" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
-  </head>
-  <body>
-
-      <form action="https://encurtador.com.br/rNRS7" class="login-form">
-
-        <img class="img_form" src="avatar.png" alt="">
-        <h1>Yunna</h1>
-        <button type="submit" class="logbtn">Invite</button>
-      </form>
-
-      <script type="text/javascript">
-      $(".txtb input").on("focus",function(){
-        $(this).addClass("focus");
-      });
-      $(".txtb input").on("blur",function(){
-        if($(this).val() == "")
-        $(this).removeClass("focus");
-      });
-      </script>
-
-
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <title>Yunna Bot | Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Yunna Bot</h1>
+        <p> 
+            Just a guy bored w/ the web design class n' hated python 
+            but give it a try and dats what happened
+        </p>
+        <img src="./assets/yunna_avatar.png" id="avatar">
+        <a href="https://encurtador.com.br/rNRS7">
+            <button type="button" class="invite_button" style="font-size: 17px;"><img src="./assets/discord_logo.svg" style="margin-right: 15px;">Invite Yunna</button>
+        </a>
+    </main>
+</body>
 </html>
