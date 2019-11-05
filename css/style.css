@@ -30,7 +30,7 @@ main{
     height: 450px;
     top: 31.42%;
     left: 65%;
-    position: absolute;
+    position: fixed;
 }
 .invite_button{
     width: 166px;
