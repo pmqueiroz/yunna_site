@@ -102,11 +102,10 @@ p{
     height: 20px;
 }
 .home_button{
-    width: 166px;
-    height: 48px;
+    width: 12.152269399707174vw;
+    height: 7.30593607305936vh;
     font-family: open sans,Helvetica,arial,sans-serif;
     text-shadow: 0px 0px 15px black;
-    text-align: center;
     background-color: #222629;
     cursor: pointer;
     font-weight: 600;
@@ -118,12 +117,38 @@ p{
     padding: 6.5px;
     border-radius: 5px;
     position: absolute;
-    left: 44.2vw;
-    top: 160vh;
+    left: 2vw;
+    top: 190vh;
     transition-duration: 0.4s;
-    padding-left: 16.5px;
+    padding-left: 56.5px;
 }
 main button img{
-    width: 35px;
-    height: 35px;
+    width: 2.562225475841874vw;
+    height: 5.327245053272451vh;
+}
+.c-text{
+    padding: 0.989345509893455vh;
+    color: #fff;
+}
+.c-text h2{
+    font-size: 20px;
+}
+.c-text p{
+    color: #BDBEBF;
+}
+.c-avatar{
+    border-radius: 10px;
+    margin: 2.1961932650073206vw 0 0 12.1765601217656vh;
+    padding-left: 1.4641288433382138vw;
+    width: 29.282576866764277vw;
+    height:  8.37138508371385vh;
+    background-color: #181b1d;
+}
+.c-info{
+    border-radius: 10px;
+    margin: 10px 0 0 80px;
+    padding-left: 1.4641288433382138vw;
+    width: 29.282576866764277vw;
+    height:  8.37138508371385vh;
+    background-color: #181b1d;
 }
