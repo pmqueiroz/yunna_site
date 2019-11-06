@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins,Helvetica,arial,sans-serif;
+    overflow: hidden;
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+}
+main{
+    grid-template-columns: 1fr;
+    grid-template-rows: .4fr 1fr;
+    grid-template-areas: "menu" "container";
+    background: #222629;
+    width: 100vw;
+    height: 200vh;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+}
+.title{
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 2.9282576866764276vw;
+    color: #fff;
+}
+.title2{
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2.9282576866764276vw;
+    color: #fff;
+}
+p{
+    font-size: 1.171303074670571vw;
+}
+.description{
+    text-align: center;
+    color: #BDBEBF;
+}
+#avatar{
+    width: 34.773060029282576vw;
+    height: 68.4931506849315vh;
+    top: 31.42%;
+    left: 65%;
+    position: fixed;
+}
+.invite_button{
+    text-decoration: none;
+    width: 12.152269399707174vw;
+    height: 7.30593607305936vh;
+    font-size: 100px;
+    font-family: open sans,Helvetica,arial,sans-serif;
+    text-shadow: 0px 0px 15px black;
+    background-color: #ff4c5c;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 6.5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 44.2vw;
+    top: 50vh;
+    transition-duration: 0.4s;
+}
+.invite_button:hover{
+    background-color: #222629;
+    border: 1px solid #efefef;
+}
+.commands_button{
+    width: 12.152269399707174vw;
+    height: 7.30593607305936vh;
+    font-family: open sans,Helvetica,arial,sans-serif;
+    text-shadow: 0px 0px 15px black;
+    background-color: #222629;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: 1px solid #efefef;
+    color: #fff;
+    padding: 6.5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 44.2vw;
+    top: 60vh;
+    transition-duration: 0.4s;
+    padding-left: 16.5px;
+}
+.commands_button:hover{
+    background-color: #ff4c5c;
+    border: none;
+}
+.commands_button img{
+    width: 20px;
+    height: 20px;
+}
+.home_button{
+    width: 166px;
+    height: 48px;
+    font-family: open sans,Helvetica,arial,sans-serif;
+    text-shadow: 0px 0px 15px black;
+    text-align: center;
+    background-color: #222629;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: 1px solid #efefef;
+    color: #fff;
+    padding: 6.5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 44.2vw;
+    top: 160vh;
+    transition-duration: 0.4s;
+    padding-left: 16.5px;
+}
+main button img{
+    width: 35px;
+    height: 35px;
+}
