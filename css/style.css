@@ -23,23 +23,34 @@ main{
 .title{
     text-align: center;
     padding-top: 15vh;
-    font-size: 40px;
+    font-size: 2.9282576866764276vw;
     color: #fff;
+}
+.title2{
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2.9282576866764276vw;
+    color: #fff;
+}
+p{
+    font-size: 1.171303074670571vw;
 }
 .description{
     text-align: center;
     color: #BDBEBF;
 }
 #avatar{
-    width: 475px;
-    height: 450px;
+    width: 34.773060029282576vw;
+    height: 68.4931506849315vh;
     top: 31.42%;
     left: 65%;
     position: fixed;
 }
 .invite_button{
-    width: 166px;
-    height: 48px;
+    text-decoration: none;
+    width: 12.152269399707174vw;
+    height: 7.30593607305936vh;
+    font-size: 100px;
     font-family: open sans,Helvetica,arial,sans-serif;
     text-shadow: 0px 0px 15px black;
     background-color: #ff4c5c;
@@ -62,8 +73,8 @@ main{
     border: 1px solid #efefef;
 }
 .commands_button{
-    width: 166px;
-    height: 48px;
+    width: 12.152269399707174vw;
+    height: 7.30593607305936vh;
     font-family: open sans,Helvetica,arial,sans-serif;
     text-shadow: 0px 0px 15px black;
     background-color: #222629;
