@@ -1,3 +1,4 @@
-Invite
+Yunna Site
 ------------
-You can invite Yunna to your server clicking [here]( https://hungry-thompson-93444d.netlify.com/)
+[Yunna Site]( https://hungry-thompson-93444d.netlify.com/){:target="_blank"}
+{:target="_blank"}
