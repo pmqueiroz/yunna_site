@@ -31,6 +31,7 @@ main{
     padding-top: 5vh;
     font-size: 2.9282576866764276vw;
     color: #fff;
+    margin-bottom: 2vh;
 }
 p{
     font-size: 1.171303074670571vw;
@@ -125,30 +126,4 @@ p{
 main button img{
     width: 2.562225475841874vw;
     height: 5.327245053272451vh;
-}
-.c-text{
-    padding: 0.989345509893455vh;
-    color: #fff;
-}
-.c-text h2{
-    font-size: 20px;
-}
-.c-text p{
-    color: #BDBEBF;
-}
-.c-avatar{
-    border-radius: 10px;
-    margin: 2.1961932650073206vw 0 0 12.1765601217656vh;
-    padding-left: 1.4641288433382138vw;
-    width: 29.282576866764277vw;
-    height:  8.37138508371385vh;
-    background-color: #181b1d;
-}
-.c-info{
-    border-radius: 10px;
-    margin: 10px 0 0 80px;
-    padding-left: 1.4641288433382138vw;
-    width: 29.282576866764277vw;
-    height:  8.37138508371385vh;
-    background-color: #181b1d;
 }

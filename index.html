@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900" rel="stylesheet">
     <title>Yunna Bot | Home</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/commands.css">
+    <link rel="stylesheet" href="./css/backTop.css">
 </head>
 <body>
     <main>
@@ -23,33 +25,54 @@
                 <button type="button" class="invite_button" style="font-size: 17px;"><img src="./assets/discord_logo.svg" style="margin-right: 15px;">Invite Yunna</button>
             </a>
             <a href="#commands" class="smooth-scrolling">
-                <button type="button" class="commands_button" style="font-size: 17px;"><img src="./assets/gear_icon.svg" style="margin-right: 15px;">Commands</button>
+                <button type="button" class="commands_button" style="font-size: 17px;" onclick="displayBallon()"><img src="./assets/gear_icon.svg" style="margin-right: 15px;">Commands</button>
             </a>
         </div>
         <div id="commands">
             <h1 class="title2">Commands</h1>
-            <a href="#container" class="smooth-scrolling">
+            <!-- <a href="#container" class="smooth-scrolling">
                     <button type="button" class="home_button" style="font-size: 17px;">Home</button>
-            </a>  
-            <div class="c-avatar c-text">
-                <h2>!avatar &ltmention&gt</h2>
-                <p>Get a user's avatar</p>
+            </a> -->
+            <div class="backTop" id="hidden">
+                <a href="#container" class="smooth-scrolling" onclick="hideBallon()">
+                    <h1 id="mangaFont">Back to Top</h1>
+                    <img src="./assets/normalBallon.png" class="backTopBallon">
+                </a>
             </div>
-            <div class="c-info c-text">
-                <h2>!info</h2>
-                <p>Display Yunna's description</p>
+            <div id="commandsBox">
+                <div class="c-box c-margin c-text c-leftColumnOne">
+                    <h2>!avatar &ltmention&gt</h2>
+                    <p>Get a user's avatar</p>
+                </div>
+                <div class="c-box c-margin c-text c-rightColumnOne">
+                    <h2>!info</h2>
+                    <p>Display Yunna's description</p>
+                </div>
+                <div class="c-box c-margin c-text c-leftColumnTwo">
+                    <h2>!say &ltarg&gt</h2>
+                    <p>Makes Yunna say something</p>
+                </div>
+                <div class="c-box c-margin c-text c-rightColumnTwo">
+                    <h2>!ban &ltmention&gt</h2>
+                    <p>x__x</p>
+                </div>
+                <div class="c-box c-margin c-text c-leftColumnThree">
+                    <h2>!kick &ltmention&gt</h2>
+                    <p>x__x</p>
+                </div>
+                <div class="c-box c-margin c-text c-rightColumnThree">
+                    <h2>!prune &ltamount&gt</h2>
+                    <p>Clean messages. Aliases: Purge, clear</p>
+                </div>
+                <div class="c-box c-margin c-text c-leftColumnFour">
+                    <h2>!unban &ltmention&gt</h2>
+                    <p>x__x</p>
+                </div>
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-        <script>
-            var $doc = $('html, body');
-            $('.smooth-scrolling').click(function() {
-                $doc.animate({
-                    scrollTop: $( $.attr(this, 'href') ).offset().top
-                }, 500);
-                return false;
-            });
-        </script>
+        <script src="js/smoothScrolling.js"></script>
+        <script src="./js/backTop.js"></script>
     </main>
 </body>
 </html>

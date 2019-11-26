@@ -1,0 +1,69 @@
+#commandsBox{
+    margin: 5vh 0 0 8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "leftColumnOne rightColumnOne"
+    "leftColumnTwo rightColumnTwo"
+    "leftColumnThree rightColumnThree"
+    "leftColumnFour rightColumnFour"
+    "leftColumnFive rightColumnFive"
+    "leftColumnSix rightColumnSix";
+    width: 55vw;
+}
+.c-leftColumOne{
+    grid-area: leftColumOne;
+}
+.c-leftColumTwo{
+    grid-area: leftColumTwo;
+}
+.c-leftColumThree{
+    grid-area: leftColumThree;
+}
+.c-leftColumFour{
+    grid-area: leftColumFour;
+}
+.c-leftColumFive{
+    grid-area: leftColumFive;
+}
+.c-leftColumSix{
+    grid-area: leftColumSix;
+}
+.c-rightColumOne{
+    grid-area: rightColumOne;
+}
+.c-rightColumTwo{
+    grid-area: rightColumTwo;
+}
+.c-rightColumThree{
+    grid-area: rightColumThree;
+}
+.c-rightColumFour{
+    grid-area: rightColumFour;
+}
+.c-rightColumFive{
+    grid-area: rightColumFive;
+}
+.c-rightColumSix{
+    grid-area: rightColumSix;
+}
+.c-margin{
+    margin: 0 0 2vh 0;
+}
+.c-text{
+    padding: 0.989345509893455vh;
+    color: #fff;
+}
+.c-text h2{
+    font-size: 20px;
+}
+.c-text p{
+    color: #BDBEBF;
+}
+.c-box{
+    border-radius: 10px;
+    width: 25vw;
+    height: 8.3vh;
+    background-color: #181b1d;
+}
