@@ -1,0 +1,1 @@
+adBlockOn = true;
